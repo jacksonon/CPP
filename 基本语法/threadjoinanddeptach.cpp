@@ -48,7 +48,7 @@ int main() {
 			cout << "出错：不能连接" << rc << endl;
 			exit(-1);
 		}
-		cout << "主函数：完成线程id：" << i << endl;
+		cout << "主函数：完成线程id：" << i ;
 		cout << " 退出伴随当前状态：" << status << endl;
 	}
 	cout << "主函数：程序退出." << endl;
